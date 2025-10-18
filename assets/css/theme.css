@@ -1,0 +1,454 @@
+/*!
+ * Theme Name: Default
+ * Author: Mentric
+ * Version	 :	1.0.0
+ * Updated	 :	07.23.2020
+**/
+/** Table ***/
+.nk-tb-item-empty {
+   text-align: center;
+   padding: 1rem 0.5rem;
+}
+
+/** Form Error message */
+.form-control-wrap.inner > span.invalid {
+	color: #e85347;
+	font-size: 11px;
+	font-style: italic;
+	margin-top: 0.25rem;
+	display: block;
+	
+ }
+
+ #nativeForm span.invalid{
+	padding: 0 .3rem;
+ }
+
+
+/*** Loader ***/
+#loader {
+	background-color: rgba(28, 43, 70, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+}
+
+#loader .loader-inner {
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%; */
+}
+
+#loader .loader-body {
+	background-color: var(--bs-white);
+	padding: 1rem 3rem;
+	border-radius: 4px;
+}
+.nk-sidebar-widget{
+	display: none !important;
+}
+.nk-content, .nk-wrap {
+	background: #eef5f9;
+}
+.bg-primary{
+	background-color: #1e88e5 !important;
+}
+.nk-content-body .nk-block-between{
+	margin: 0px !important;
+}
+.nk-block-head{
+	padding-bottom: 0px !important;
+}
+/* .text-soft #total-students{
+	display: none !important;
+} */
+.nk-block-tools-opt{
+	margin-bottom: 1.5rem !important;
+}
+.card-bordered{
+	border: none;
+	box-shadow: 2px 7px #f4f7f9;
+}
+*{
+	font-family: "Poppins",sans-serif !important;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
+	font-family: "Poppins",sans-serif !important;
+
+}
+.card-title p, p:last-child{
+	--bs-text-opacity: 1;
+    color: #a1aab2!important;
+}
+h6{
+	color: #455a64 !important;
+}
+#studentList .nk-tb-item, .nk-tb-item .nk-tb-col{
+	text-align: left !important;
+}
+/* .text-center{
+	text-align: unset !important;
+	font-size: 0.9375rem !important;
+} */
+.nk-tb-list .tb-lead, .nk-tb-list .tb-amount{
+	font-size: .875rem !important;
+}
+.nk-tb-list .user-info .tb-lead + span, .nk-tb-list .tb-lead + .tb-date{
+	font-size: .875rem;
+}
+.nk-tb-item .text-black{
+	font-size: 0.9375rem !important;
+	color: #67757c !important;
+
+}
+ .nk-tb-list .nk-tb-col{
+	font-size: .875rem !important;
+}
+.card-bordered .card-inner-group{
+	margin-left: 10px;
+    margin-right: 10px;
+}
+.fw-bold {
+    font-weight: 500 !important;
+}
+.page-title{
+	font-weight: 500 !important;
+	font-size: 22px !important;
+	color: #1e88e5;
+}
+.nk-sidebar-menu .nk-menu-text{
+	font-weight: 500 !important;
+}
+.is-alter .form-control ~ .invalid{
+	bottom: calc(100% + 6px) !important;
+}
+.nk-tb-col .tb-lead{
+	text-align: left !important;
+}
+.nk-block-head .nk-block-title{
+	padding: 0px 0px 8px 5px !important;
+}
+.nk-block .options--block{
+	padding-top: 20px;
+}
+.nk-block-between .nk-block-des{
+	margin-bottom: 1.5rem;
+	padding-left: 7px;
+}
+.list-area .nk-tb-col .tb-lead{
+	color: #8094ae !important;
+}
+#languages .text-center .btn-success, #families .text-center .btn-success{
+	background-color: #1abe92 !important; 
+	border-color: #1abe92 !important;
+	padding: 5px 16px;
+}
+#languages .text-center .btn-danger, #families .text-center .btn-success{
+	color: #fff;
+    background-color: #e85347;
+    border-color: #e85347;
+}
+#available_elimentary_questions{
+	font-size: 12px;
+    font-style: italic;
+    /* padding-top: 13px; */
+
+}
+#exam-list .nk-tb-item .bg-success, #examination .text-center .btn-outline-success,
+#students_list .nk-tb-col .bg-success, #families .nk-tb-col .bg-success,
+#licenses-container .nk-tb-col .bg-success, #sub-licenses-container .nk-tb-col .bg-success,#examinations_list .badge-dim.bg-success{
+	font-size: 13px;
+	color: #fff !important;
+	background-color: #1abe92 !important; 
+	border-color: #1abe92 !important;
+	padding: 5px 16px;
+}
+#exam-list .badge-dim.bg-danger, #examination .text-center .btn-outline-danger,
+#licenses-container .nk-tb-col .bg-danger, #sub-licenses-container .nk-tb-col .bg-danger,
+#students_list .nk-tb-col .bg-danger, #families .nk-tb-col .bg-danger,#examinations_list .badge-dim.bg-danger{
+	font-size: 13px;
+	padding: 5px 11px;
+	color: #fff !important;
+    background-color: #e85347 !important;
+    border-color: #e85347 !important;
+}
+
+
+
+.nk-block-between-md .nk-block-head-content .nk-block-title {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+	color: #1e88e5;
+	margin-bottom: 1.5rem;
+}
+
+.nk-sidebar + .nk-wrap {
+    padding-left: 465px;
+}
+
+.nk-sidebar + .nk-wrap > .nk-header-fixed {
+    left: 362px;
+}
+
+@media (max-width: 2800px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 482px;
+	}
+}
+@media (max-width: 2700px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 458px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 497px;
+	}
+}
+@media (max-width: 2600px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 440px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 500px;
+	}
+}
+@media (max-width: 2500px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 434px;
+	}
+}
+@media (max-width: 2300px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 422px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 417px;
+	}
+}
+@media (max-width: 2300px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 409px;
+	}
+}
+@media (max-width: 2200px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 387px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 371px;
+	}
+}
+@media (max-width: 2100px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 360px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 363px;
+	}
+}
+@media (max-width: 2000px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 356px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 348px;
+	}
+}
+@media (max-width: 1950px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 344px;
+	}
+}
+@media (max-width: 1900px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 336px;
+	}
+}
+@media (max-width: 1850px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 324px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 337px;
+	}
+}
+@media (max-width: 1820px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 322px;
+	}
+}
+@media (max-width: 1800px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 305px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 304px;
+	}
+}
+@media (max-width: 1700px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 305px;
+	}
+}
+@media (max-width: 1680px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 299px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 311px;
+	}
+}
+@media (max-width: 1650px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 288px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 296px;
+	}
+}
+@media (max-width: 1600px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 279px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 285px;
+	}
+}
+@media (max-width: 1536px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 270px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 275px;
+	}
+}
+@media (max-width: 1500px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 266px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 265px;
+	}
+}
+
+@media (max-width: 1460px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 260px;
+	}
+}
+@media (max-width: 1435px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 256px;
+	}
+}
+@media (max-width: 1420px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 251px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 250px;
+	}
+.nk-sidebar + .nk-wrap {
+    padding-left: 244px;
+}
+}
+@media (max-width: 1383px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 237px;
+	}
+}
+@media (max-width: 1360px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 242px;
+	}
+}
+@media (max-width: 1350px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 241px;
+	}
+}
+@media (max-width: 1350px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 233px;
+	}
+}
+@media (max-width: 1300px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 227px;
+	}
+	.nk-sidebar + .nk-wrap {
+		padding-left: 216px;
+	}
+}
+@media (max-width: 1260px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 210px !important;
+	}
+}
+@media (max-width: 1230px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 214px !important;
+	}
+}
+@media (max-width: 1200px) {
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 95px !important;
+	}
+   .nk-sidebar + .nk-wrap {
+    padding-left: 221px;
+}
+}
+@media (max-width: 1199px){
+.nk-sidebar + .nk-wrap > .nk-header-fixed {
+    left: 0px !important;
+	
+}
+.nk-sidebar + .nk-wrap {
+    padding-left: 2px;
+}
+}
+@media (max-width: 1115px){
+	.nk-sidebar + .nk-wrap > .nk-header-fixed {
+		left: 0px !important;
+	}
+}
+@media (min-width: 1200px){
+.nk-sidebar .nk-menu > li .nk-menu-sub .nk-menu-link {
+    padding-right: 0px;
+}
+}
+@media (min-width: 768px) {
+
+#search_list   .col-md-2 {
+    width: auto !important;
+  }
+}
+#difficulty_level-error{
+	color: #fff !important;
+}
+#questionPoolAddForm .adding_answer_question{
+	height: 37px !important;
+}
+.difficulty-total-questions{
+    padding:0px !important;
+}
+@media (min-width: 992px){
+.elementry__question{
+    width: 66% !important;
+}
+}
+.exam_criteria_elimintory{
+	margin-left: 26px;
+}
+#form__container .elementry__question{
+	width:72% !important;
+}
+.nk-tb-item-empty{
+	margin-right: 95px;
+}

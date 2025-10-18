@@ -1,0 +1,1 @@
+<?php include_once(APPPATH.'views/admin/school/answersheet.php'); ?>

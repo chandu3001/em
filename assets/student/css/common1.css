@@ -1,0 +1,80 @@
+.main-title{
+         background: #00e1ff;
+      }
+
+       .live-exam{
+         background: #a5ff01;
+      }
+
+      .language{
+             text-align: right;
+      }
+      body{
+             font-family: Nunito, sans-serif;
+      }
+      .btn-lg{
+             width: 200px;
+             display: inline-block!important;
+             height: 50px;
+      }
+      .others{
+         cursor: text;
+      }
+      .logo-container{
+         width: 8%;
+         height: 100%;    
+      }
+      .logo-title{
+         display: flex;
+         border-bottom: 1px solid black;
+         padding-bottom: 10px;
+      }
+      .nk-block-between-md g-4{
+         margin:'2.25rem'
+      }
+      
+        .g-4:not(.row) {
+            margin: 3.25rem;
+        }
+        .title-container{
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+        }
+       .title-container h2{
+            color: black;
+            font-size: 50px;
+        }
+       .nk-block-head-content .ni-arrow-left{
+            font-weight:bold;
+        }
+       .title-container h2{
+            font-size: 32px;
+            margin-left: 80px;
+            color:#364a63;
+        }
+       .g-4:not(.row) {
+            margin: 0 3.25rem ;
+        }
+        .title-container span{
+             margin: 0 auto;
+             display: flex;
+             justify-content: center;
+             font-size: 15px;
+         }
+        .nk-block-head-content .nk-block-title{
+            color:#364a63;
+         }
+         
+        .d-sm-inline-flex span{
+            color:black;
+            font-weight:800;
+        }
+        .btn-outline-light{
+            border-color: #797d8b;
+        }
+
+        
+
+
+         

@@ -1,0 +1,229 @@
+.main-title{
+    background: #00e1ff;
+ }
+
+  .live-exam{
+    background: #a5ff01;
+ }
+
+ .language{
+        text-align: right;
+ }
+ body{
+        font-family: Nunito, sans-serif;
+ }
+ .btn-lg{
+        width: 200px;
+        display: inline-block!important;
+        height: 50px;
+ }
+ .others{
+    cursor: text;
+ }
+ .logo-container{
+    width: 8%;
+    height: 100%;    
+ }
+ .logo-title{
+    display: flex;
+    padding-bottom: 10px;
+ }
+ .nk-block-between-md g-4{
+    margin:'2.25rem'
+ }
+ 
+   .g-4:not(.row) {
+       margin: 3.25rem;
+   }
+   .nk-content-fluid .title-container{
+       justify-content: center;
+       display: flex;
+       margin: 0 auto;
+   }
+  .nk-content-fluid .title-container h2{
+       color: black;
+       font-size: 50px;
+   }
+  .nk-block-head-content .ni-arrow-left{
+       font-weight:bold;
+   }
+  .nk-content-fluid .title-container h2{
+       font-size: 32px;
+       margin-left: 80px;
+       color:#364a63;
+   }
+  .g-4:not(.row) {
+       margin: 0 3.25rem ;
+   }
+   .title-container span{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+   .nk-block-head-content .nk-block-title{
+       color:#364a63;
+    }
+    
+   .d-sm-inline-flex span{
+       color:black;
+       font-weight:800;
+   }
+   .btn-outline-light{
+       border-color: #797d8b;
+   }
+   .main-title{
+       background: #00e1ff;
+    }
+
+  .live-exam{
+       background: #a5ff01;
+    }
+  .jconfirm-content{
+      text-align: center;
+    }
+    .jconfirm-content #msg{
+      text-align: center;
+      font-size: 19px;
+      font-weight: bold;
+    }
+    .jconfirm-buttons{
+          margin-right: 130px;
+    }
+    .logo-container{
+       width: 8%;
+       height: 100%;    
+    }
+    .logo-title{
+       display: flex;
+       padding-bottom: 10px;
+    }
+   
+    .nk-content-fluid .title-container{
+       justify-content: center;
+       display: flex;
+       margin: 0 auto;
+       padding-left: 190px;
+     }
+    .nk-content-fluid .title-container h2{
+          font-size: 32px;
+      }
+  .title-container span{
+         margin: 0 auto;
+         display: flex;
+         justify-content: center;
+         font-size: 15px;
+  }
+  .container-xl .nk-block{
+      margin-top:7%;
+   }
+
+  .card-inner{
+  background: #fff;
+  padding: 0.5rem !important;
+  border-radius: 16.0115px; 
+  }
+  .justify-between .btn-info {
+      border:none;
+  }
+  .btn-success:active{
+      background-color:none !important;
+      border-color: none !important;
+  }
+  .nk-block-between-md{
+      display:block !important;
+  }
+  .nk-content-body .start-details{
+      display: flex;
+     background: #fff;
+     padding: 20px 43px 20px 25px;
+     border-radius: 0px 24px 24px 0px;
+     box-shadow: 0px 0px 20px 4px rgba(97, 109, 237, 0.2);
+     width: 200px;
+     height: 666px;
+  }
+  .btn-outline-light, .btn-outline-light span{
+   background: none !important;
+   border: none !important;
+   color: #616ded;
+  }
+  .btn-outline-light:hover{
+   color: #616ded;
+  }
+  #username{
+   font-size: 20px !important;
+   padding-bottom:0px !important;
+  }
+  #host-name{
+      font-size: 20px !important;
+      padding: 0px 0px 0px 5px;
+  }
+  #device-status{
+   font-size:20px !important;
+   padding: 0px 0px 0px 5px;
+
+ }
+ #host-name-value{
+   font-size: 12px !important;
+ }
+  .start-sys-details{
+      width: 156px;
+  }
+  .g-4:not(.row){
+      margin-top: 75px;
+  }
+  .nk-content-fluid {
+      padding-left: 0 !important;
+  }
+  .container-xl{
+      max-width: unset !important;
+      padding-left: 0px !important;
+  }  
+  .g .title_pic{
+      border-bottom: 4.87px solid #5048E5;
+  }
+  #mockbtn, #live-exam{
+      color: #5048E5 !important;
+  }
+  .btn-xl{
+      padding:0px !important;
+      padding-top:15px !important;
+      padding-left: 25px !important;
+  }
+  .btn-outline-primary{
+   color: #616ded;
+  }
+  .btn-outline-primary:hover{
+   background-color: #b7a5a547 !important;
+   color: #616ded;
+  }
+   
+  .start-details{
+   width:200px !important;
+   height:472px;
+   background: #fff;
+}
+.heading_title h3{
+   font-size: 32px !important;
+}
+.bg-primary{
+   background-color: #616ded !important;
+}
+.btn-outline-primary{
+   font-size: 16px;
+   font-weight: 500 !important;
+   padding-left: 0px
+}
+
+#device-status-area p:last-child{
+color:#33C052 !important;
+}
+
+#username, #host-name, #device-status{
+    font-size:20px !important;
+    color:black !important;
+}
+
+
+
+    

@@ -1,0 +1,522 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box ;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.logo_img{
+    width: 65%;
+}
+.b_right{
+    border-right: 1px solid #af2020;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #af2020 !important;
+    font-weight: 600;
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+header
+{
+    background: #626cee;
+}
+/* banner */
+.login{
+    background-color: #eff1fe;
+    height: 580px;
+}
+.login h3
+{
+    color: #0d6efd; 
+}
+.login-logo
+{
+    min-height: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 24px;
+}
+.bg-white {
+    background-color: #fff!important;
+    width: 400px !important;
+}
+/* banner end */
+
+
+
+/*------------------FORM------------------------*/
+.m-5
+{
+        justify-content: center;
+}
+.banner .m-5 {
+    margin: 3rem 12rem!important;
+
+}
+.form-style input{
+    border:0;
+    height:50px;
+    border-radius:10px;
+border:1px solid #ebebeb;    
+}
+.form-style input:focus{
+border-bottom:1px solid #007bff;    
+box-shadow:none;
+outline:0;
+background-color:#ebebeb;   
+}
+.sideline {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#ccc;
+}
+button {
+    color: #fff;
+    background-color: #626cee;
+    border-color: #626cee;
+    border-radius: 10px;
+}
+button{
+height:50px;    
+}
+.sideline:before,
+.sideline:after {
+    content: '';
+    border-top: 1px solid #ebebeb;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.sideline:after {
+    margin: 0 0 0 20px;
+}
+.toggle-password {
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: -25px;
+}
+form i {
+
+            cursor: pointer;
+            float: right;
+        }
+/*------------------FORM------------------------*/
+
+
+
+/*--------------------EXAM MODEL START------------------------*/
+.exam-content
+{
+    
+}
+.student-details
+{
+    background: #fff;
+    border-radius: 0px 25px 25px 0px;
+    height: 480px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 6%), 0 2px 19px 4px rgb(0 0 0 / 6%);
+    margin-left: -12px;
+}
+.student-details h2
+{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #383838;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.authenticated
+{
+        color: #02bf02 !important;
+}
+.student-details img
+{
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+}
+.student-details-logo img
+{
+        display: inline;
+    padding: 0;
+}
+.student-details h2 span
+{
+        font-size: 13px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #adadad;
+}
+.student-details p
+{
+        text-align: center;
+    font-size: 13px;
+    font-family: Montserrat;
+    font-weight: 300;
+    color: #adadad;
+    padding-top: 60%;
+}
+
+.exam-model
+{
+justify-content: center;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.exam-model .card {
+    border-radius: 15px ;
+    margin: 30px !important;
+}
+.fa-download:before {
+    content: "\f019";
+    color: #fff;
+}
+.fa-bell:before {
+    content: "\f0f3";
+    color: #fff;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.5rem 1rem !important ;
+}
+.card-body a
+{
+    text-decoration: none !important;
+}
+.card-title {
+    margin-bottom: 0.5rem;
+    color: #626cee;
+}
+.btn-outline-secondary:hover {
+    color: #0a0a0a !important;
+    background-color: #d7d9eb !important;
+    border-color: #6c757d;
+}
+.card-img, .card-img-top {
+    border-radius: 10px !important;
+}
+
+/*--------------------EXAM MODEL END------------------------*/
+
+/*--------------Exam Model intro Start---------------*/
+
+.exam-model-intro
+{
+justify-content: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.exam-model-intro .card {
+    border-radius: 15px ;
+    margin: 10px !important;
+}
+.start-button .card-text
+{ 
+
+    text-align: center;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 600 !important;
+    color: #626cee; 
+}
+.card a
+{
+    text-decoration: none;
+}
+
+/*--------------Exam Model intro End---------------*/
+
+/*--------------Counter Start---------------*/
+.exam-model-counter
+{
+    justify-content: center;
+    display: grid !important;
+}
+.counter
+{
+    /*background-color: #eaecf0;*/
+    text-align: center;
+    justify-content: center;
+}
+.exam-counter
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.exam-counter-p
+{
+       text-align: center;
+    font-size: 28px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #626cee;
+}
+.counter-count
+{
+        font-size: 70px;
+    background-color: #626cee;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+/*--------------Counter End---------------*/
+
+/*--------------Score Card pass Start---------------*/
+.score-card-pass
+{
+justify-content: center;
+    position: relative;
+    top: 32%;
+    transform: translateY(-50%);
+}
+.score-card-pass .card {
+    border-radius: 15px ;
+    margin: 10px !important;
+}
+.score-card-pass img
+{
+    margin: 0 auto;
+    display: block;
+    /*padding: 30px;*/
+}
+.exam-type h1
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #383838;
+    padding-top: 24px;
+}
+.exam-type h1 span
+{
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #9d9d9d;
+    padding-top: 24px;
+}
+.exam-type h2
+{
+text-align: center;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-top: 35px;
+}
+.exam-type h2 span
+{
+        text-align: center;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #12c918;
+    margin-bottom: 25px;
+    line-height: 2;
+}
+.marksheet
+{
+    padding-top: 34px;
+}
+.pass
+{
+    color: green;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 30px;
+}
+.print button
+{
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    width: 340px;
+    margin-top: 32px;
+}
+/*--------------Score Card End---------------*/
+
+
+/*--------------Score Card fail Start---------------*/
+.score-card-fail
+{
+justify-content: center;
+    position: relative;
+    /* top: 32%;
+    transform: translateY(-50%); */
+}
+.score-card-fail .card {
+    border-radius: 15px ;
+    margin: 10px !important;
+}
+.score-card-fail img
+{
+    margin: 0 auto;
+    display: block;
+    /*padding: 30px;*/
+}
+.exam-type-fail h1
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #383838;
+    padding-top: 24px;
+}
+.exam-type-fail h1 span
+{
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #9d9d9d;
+    padding-top: 24px;
+}
+.exam-type-fail h2
+{
+text-align: center;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #626cee;
+    margin-bottom: 25px;
+    padding-top: 35px;
+}
+.exam-type-fail h2 span
+{
+        text-align: center;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #ff0000;
+    margin-bottom: 25px;
+    line-height: 2;
+}
+.fail
+{
+    color: #ff0000;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 30px;
+}
+/*--------------Score Card fail End---------------*/
+.modal-footer {
+
+     border-top: 0px solid #dee2e6 !important;
+
+}
+.modal-footer button
+{
+    width: 100%;
+}
+
+/*-------------Exam Question Start------------------*/
+.exam-question h3
+{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #222222;
+}
+.exam-question h3 span
+{
+        font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #8d8d8d;
+}
+.progress-bar {
+
+    background-image: linear-gradient(#5dabfb, #004eff);
+    border-radius: 10px;
+}
+.questions
+{
+    margin-top: 24px;
+}
+.questions h5
+{
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #222222;
+}
+.questions h5 span
+{
+        font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #bbbbbb;
+    line-height: 2.5;
+}
+.form-check {
+    min-height: 2.5rem !important;
+} 
+.page-link {
+    border: 0px solid #dee2e6 !important;
+}
+.exam-pagination
+{
+    margin-top: 20px !important;
+}
+.page-item:last-child .page-link {
+    padding-left: 182px;
+}
+.page-item:first-child .page-link {
+    padding-right: 182px;
+}
+/*-------------Exam Question End------------------*/
+
+
+
+
+
+@media screen  and  (max-width:768px) {
+    .banner .m-5 {
+    margin: 0rem 1rem!important;
+}
+}
+
+
+@media screen  and  (max-width:425px) {
+    
+.banner .m-5 {
+    margin: 0rem 1rem!important;
+}
+}
+
+@media screen  and  (max-width:425px) {
+   
+}

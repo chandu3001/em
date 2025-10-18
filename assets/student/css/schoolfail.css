@@ -1,0 +1,164 @@
+.nav
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto;
+    margin-left: 100px;
+}
+body{
+    margin: 0 auto;
+}
+.logo {
+    width: 8%;
+    height: 91%;
+}
+.main-header
+{
+    background-color: blue;
+   
+}
+.main-header img{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+.logo img{
+    max-width: 100%;
+    margin-left: 400%;
+    margin-top: 5px;
+}
+.content h1
+{
+    margin: 0 auto;
+}
+.content p
+{
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+.header
+{
+    border-bottom: solid 2px black;
+}
+.main-content h1{
+    color: red;
+}
+.main
+{
+    border: solid 1px rgb(210, 207, 207);
+    border-radius: 20px;
+    height: 460px;
+    width: 78%;
+    margin: -20px auto;
+    box-shadow: 1px 2px 2px rgb(210 206 206);
+}
+.box {
+    border: solid 1px rgb(228, 226, 226);
+    border-radius: 5px;
+    height: 170px;
+    width: 100%;
+   background-color: rgb(228, 226, 226);
+   box-shadow: 10px 8px 15px rgb(210, 207, 207);
+
+}
+.student-name{
+    
+        margin-right: 30px;
+        margin-top: 13px;
+    
+}
+.student-name h5
+{
+    margin: 10px auto;
+    font-size: 14px;
+}
+.box-content
+{
+        justify-content: space-evenly;
+        display: flex;
+        margin-top: 10px;
+   
+}
+.student-logo img{
+    border-radius: 50%;
+}
+
+
+ul li {
+    /* text-decoration: none; */
+    list-style: none;
+    margin: 6px 30px 10px -10px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display:flex ;
+}
+.Scorecard {
+    margin: 0 auto;
+    margin-right: 205px;
+}
+.row1
+{
+    margin: 0 auto;
+}
+.total {
+    border:  1px rgb(197, 191, 191);
+    border-radius: 5px;
+    height: 30px;
+    width: 139%;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px rgb(203, 197, 197);
+}
+.Scorecard h3{
+        text-align: center;
+        padding-left: 140px;
+        /* margin-right: -66px; */
+        font-size: 30px
+
+}
+.main-content h1{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 15%;
+}
+.main-content h5{
+    text-align: center;
+    font-size: 17px;
+}
+.below
+{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.below button
+{
+        border: solid 1px black;
+        margin-top: 45px;
+        height: 30px;
+        width: 10%;
+        font-size: 19px;
+        color: white;
+        background-color: rgb(78, 78, 238);
+        border-radius: 5%;
+
+}
+/* .main-content-fail
+{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 74px;
+
+}
+.main-content-fail h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: ;
+} */
